@@ -1,9 +1,32 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    background-color: aquamarine;
+    /*change background to image, this is just for editing */
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+}
+
+.AboutMe {
+    width: 960px;
+    background-color: white;
+    line-height: 32px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-left: 10%;
+}
+
+.ProfilePicture {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
