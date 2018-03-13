@@ -1,26 +1,39 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    background-color: aquamarine;
-    /*change background to image, this is just for editing */
+    background-image: url("https://github.com/stlefebvre/Basic-Portfolio/blob/master/assets/images/Background/spiration%20light/spiration-light.png?raw=true");
 }
 
-h1 {
+/*Change Name to be a block within the header, which must have white background*/
+.NameHeader {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: white;
+    width: 33.3%;
+    margin: 0 auto;
+}
+
+.SubHeader {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
 }
 
+/*Watch Student Bio video, use ruler tool listed in homework to measure length */
 .AboutMe {
-    width: 960px;
-    background-color: white;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #ffffff;
     line-height: 32px;
     padding-left: 30px;
     padding-bottom: 10px;
     padding-right: 30px;
     padding-top: 10px;
-    margin-left: 10%;
 }
-
+/*Find a way to line top of picture up with top of text*/
 .ProfilePicture {
     height: auto;
     width: auto;
