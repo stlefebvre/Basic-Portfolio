@@ -65,22 +65,27 @@ body {
     margin-bottom: 10px;
 }
 
-.Project1 {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background-color: purple;
-    margin: 0 auto;
-    float: left;
-}
-
 .ProjectPic {
+    position: relative;
     height: auto;
     width: auto;
     max-width: 220px;
     max-height: 350px;
     display: flow;
     float: left;
+    left:-4%;
+}
+
+.Project1Link {
+    position: absolute;
+    bottom: 30%;
+    height: 50px;
+    width: 220px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 7.05%;
+    text-align: center;
 }
 
 .Project2 {
