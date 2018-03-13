@@ -39,7 +39,7 @@ body {
 }
 
 /*Watch Student Bio video, use ruler tool listed in homework to measure length */
-.AboutMe {
+.AboutMe, .box-set {
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
@@ -52,6 +52,7 @@ body {
     padding-right: 30px;
     padding-top: 10px;
     margin-top: 35px;
+    overflow: auto;
 }
 /*Find a way to line top of picture up with top of text*/
 .ProfilePicture {
@@ -62,4 +63,32 @@ body {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
+}
+
+.Project1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 0 auto;
+    float: left;
+}
+
+.ProjectPic {
+    height: auto;
+    width: auto;
+    max-width: 220px;
+    max-height: 350px;
+    display: flow;
+    float: left;
+}
+
+.Project2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 0 auto;
+    float: left;
+    left: 50px;
 }
