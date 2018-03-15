@@ -13,8 +13,6 @@ body {
     margin: 0 auto;*/
 }
 
-/*Review display: block definition*/
-
 .Name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
@@ -31,7 +29,7 @@ body {
 }
 
 .NavBar {
-    display: block;
+    display: inline-block;
     position: absolute;
     top: 5%;
     right: 130px;
@@ -43,6 +41,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     text-decoration: none;
+    border-left: 1px;
+    border-style: solid;
+    border-left-color:  #efefef;
+    padding-left: 15px;
+}
+
+#AboutNav {
+    border-left: none;
+    padding-right: 15px;
+}
+
+#PortfolioNav {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#ContactNav {
+    padding-left: 15px;
 }
 
 .SubHeader {
@@ -54,8 +70,8 @@ body {
     border-width: 3px;
 }
 
-/*Watch Student Bio video, use ruler tool listed in homework to measure length */
-.AboutMe, .box-set {
+/*Figure out why Name div isn't lining up with box-set div on Portfolio page*/
+.AboutMe, .ContactMe, .box-set {
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
@@ -78,6 +94,27 @@ body {
     max-height: 220px;
     float: left;
     margin-right: 20px;
+}
+
+.ContactName, .ContactEmail {
+    width: 100%;
+}
+
+.ContactMessage {
+    width: 100%;
+    height: 200px;
+}
+
+.SubmitButton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 116px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .Project1 {
@@ -122,11 +159,16 @@ body {
     left: 50px;
 }
 
+/*push allows for space between main content and footer, forces side scroll bar, prevents overlapping with main content*/
+.push {
+    height: 50px;
+}
+
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 50px;
     background-color: #666666;
     color: #ffffff;
     border-top: #4aaaa5;

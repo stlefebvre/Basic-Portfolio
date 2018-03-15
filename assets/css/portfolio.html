@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media = "screen" href="reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
@@ -11,13 +11,18 @@
 </head>
 <body>
     <header class="Header">
-        <div class="Name"><h1>Shelby Lefebvre</h1></div>
+        <div class="Name">
+            <h1>Shelby Lefebvre</h1>
+        </div>
+                
         <div class="NavBar">
-                <a class="active" href="#home">About</a> | 
-                <a class="active" href="#news">Portfolio</a> | 
-                <a class="active" href="#contact">Contact</a>
+            <a id="AboutNav" href="#home">About</a>
+            <a id="PortfolioNav" href="#news">Portfolio</a> 
+            <a id="ContactNav" href="#contact">Contact</a>
         </div>
     </header>
+
+<!--Figure out why Name div isn't lining up with box-set div on Portfolio page-->
 
     <div class="box-set">
         <h1 class="SubHeader">Portfolio</h1>
@@ -30,6 +35,9 @@
         <figure class="Project4">Placeholder 4</figure>
         <figure class="Project5">Placeholder 5</figure>
     </div>
+
+    <!--Push div is to allow space between main content and footer, forces scrollbar, and doesn't overlap with main content-->
+    <div class="push"></div>
 
     <footer class="footer">
         <p>Footer</p>
