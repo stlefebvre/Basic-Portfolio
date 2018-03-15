@@ -26,6 +26,7 @@ body {
     position: relative;
     bottom: 0%;
     left: 130px;
+        /*use ruler tool to get pixels for indentation*/
 }
 
 .NavBar {
@@ -70,7 +71,6 @@ body {
     border-width: 3px;
 }
 
-/*Figure out why Name div isn't lining up with box-set div on Portfolio page*/
 .AboutMe, .ContactMe, .box-set {
     border-style: solid;
     border-color: #dddddd;
@@ -85,6 +85,7 @@ body {
     padding-top: 10px;
     margin-top: 35px;
     overflow: auto;
+    /*Figure out why scrollbar is showing up inside .box-set div, explore different overflow elements*/
 }
 /*Find a way to line top of picture up with top of text*/
 .ProfilePicture {
@@ -133,6 +134,7 @@ body {
     max-height: 350px;
     display: flow;
     float: left;
+    /*try to get top of picture to line up with top of body text*/
 }
 
 .ProjectLink {
@@ -190,6 +192,7 @@ body {
     max-width: 200px;
     width: 100%;
     float: left;
+    /*figure out why ProjectLink div doesn't span across width of Project5 image*/
 }
 
 /*push allows for space between main content and footer, forces side scroll bar, prevents overlapping with main content*/
