@@ -122,6 +122,7 @@ body {
     width: 100%;
     height: auto;
     float: left;
+    background-color: #4aaaa5;
 }
 
 .ProjectPic {
@@ -134,7 +135,7 @@ body {
     float: left;
 }
 
-.Project1Link {
+.ProjectLink {
     position: relative;
     height: auto;
     width: 100%;
@@ -151,12 +152,44 @@ body {
 
 .Project2 {
     position: relative;
-    width: 200px;
-    height: 200px;
-    background-color: purple;
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    background-color: #4aaaa5;
     margin: 0 auto;
     float: left;
     left: 50px;
+}
+
+.Project3 {
+    position: relative;
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #4aaaa5;
+    top: 200px;
+    left: -440px;
+}
+
+.Project4 {
+    position: relative;
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    background-color: #4aaaa5;
+    margin: 0 auto;
+    float: left;
+    left: -390px;
+    top: 200px;
+}
+
+.Project5 {
+    position: relative;
+    top: 230px;
+    max-width: 200px;
+    width: 100%;
+    float: left;
 }
 
 /*push allows for space between main content and footer, forces side scroll bar, prevents overlapping with main content*/
