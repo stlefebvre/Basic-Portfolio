@@ -6,7 +6,6 @@ body {
 
 .Header {
     background-color: #ffffff;
-    margin-bottom: 10px;
     border-bottom: solid;
     border-color: #dddddd;
     border-width: 1px;
@@ -21,12 +20,29 @@ body {
     color: #ffffff;
     background-color: #4aaaa5;
     display: block;
-    width: 21%;
+    width: 100%;
+    max-width: 21%;
     padding: 5px;
     padding-right: 35px;
     padding-left: 35px;
     position: relative;
     bottom: 0%;
+    left: 130px;
+}
+
+.NavBar {
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.NavBar a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
 }
 
 .SubHeader {
@@ -43,10 +59,10 @@ body {
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
-    width: 1024px;
+    width: 960px;
     margin: 0 auto;
     background-color: #ffffff;
-    line-height: 32px;
+    line-height: 30px;
     padding-left: 30px;
     padding-bottom: 10px;
     padding-right: 30px;
@@ -59,10 +75,9 @@ body {
     height: auto;
     width: auto;
     max-width: 200px;
-    max-height: 200px;
+    max-height: 220px;
     float: left;
     margin-right: 20px;
-    margin-bottom: 10px;
 }
 
 .Project1 {
@@ -105,4 +120,17 @@ body {
     margin: 0 auto;
     float: left;
     left: 50px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 10px;
+    text-align: center;
 }
