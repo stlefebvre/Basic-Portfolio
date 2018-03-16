@@ -25,15 +25,14 @@ body {
     padding-left: 35px;
     position: relative;
     bottom: 0%;
-    left: 130px;
-        /*use ruler tool to get pixels for indentation*/
+    left: 122px;
 }
 
 .NavBar {
     display: inline-block;
     position: absolute;
     top: 5%;
-    right: 130px;
+    right: 122px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
@@ -85,9 +84,8 @@ body {
     padding-top: 10px;
     margin-top: 35px;
     overflow: auto;
-    /*Figure out why scrollbar is showing up inside .box-set div, explore different overflow elements*/
 }
-/*Find a way to line top of picture up with top of text*/
+
 .ProfilePicture {
     height: auto;
     width: auto;
@@ -119,6 +117,7 @@ body {
 }
 
 .Project1 {
+    position: relative;
     max-width: 220px;
     width: 100%;
     height: auto;
@@ -129,7 +128,7 @@ body {
 .ProjectPic {
     position: relative;
     height: auto;
-    width: auto;
+    width: 100%;
     max-width: 220px;
     max-height: 350px;
     display: flow;
@@ -138,7 +137,7 @@ body {
 }
 
 .ProjectLink {
-    position: relative;
+    position: absolute;
     height: auto;
     width: 100%;
     max-width: 220px;
@@ -148,8 +147,7 @@ body {
     background-color: #4aaaa5;
     color: #ffffff;
     margin: 0;
-    bottom: 0%;
-    /*get this all lined up with the header*/
+    bottom: 10%;
 }
 
 .Project2 {
@@ -189,10 +187,10 @@ body {
 .Project5 {
     position: relative;
     top: 230px;
-    max-width: 200px;
+    max-width: 220px;
     width: 100%;
     float: left;
-    /*figure out why ProjectLink div doesn't span across width of Project5 image*/
+    margin-bottom: 20px;
 }
 
 /*push allows for space between main content and footer, forces side scroll bar, prevents overlapping with main content*/
@@ -206,9 +204,10 @@ body {
     width: 100%;
     height: 50px;
     background-color: #666666;
-    color: #ffffff;
+    color: #777777;
     border-top: #4aaaa5;
     border-top-style: solid;
     border-top-width: 10px;
     text-align: center;
+    font-size: 12px;
 }
